@@ -1,4 +1,4 @@
-//C03EXR
+//C03EX4R
 /* eleição de 3 candidatos,  calcular a quantidade de votos para cada candidato, numero de votos brancos e nulos*/
 #include <iostream>
 using namespace std;
