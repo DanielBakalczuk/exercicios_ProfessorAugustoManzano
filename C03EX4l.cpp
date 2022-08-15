@@ -1,5 +1,5 @@
 //C03EX4l.cpp
-/* Converter dÛlar em real com o usu·rio informando a cotaÁ„o atual e a quantidade de Real que possui */
+/* Converter d√≥lar em real com o usu√°rio informando a cota√ß√£o atual e a quantidade de Real que possui */
 
 #include <iostream>
 #include <iomanip>
@@ -9,26 +9,25 @@ using namespace std;
 
 int main(void)
 {
-//habilitar acentuaÁ„o
-  setlocale(LC_ALL,"Portuguese");
-//Vari·veis
+//habilitar acentua√ß√£o
+  setlocale(LC_ALL,"pt_BR");
+//Vari√°veis
   float REAL,DOLAR, COTACAO;
-//FORMATA«√O CASAS DECIMAIS
+//FORMATA√á√ÉO CASAS DECIMAIS
   cout<<setprecision(2);
   cout<<setiosflags(ios::right);
   cout<<setiosflags(ios::fixed);
 //Entrada
-  cout<<"informe a cotaÁ„o atual do Reais em relaÁ„o ao DÛlar "; cin>>COTACAO;
+  cout<<"informe a cota√ß√£o atual do Reais em rela√ß√£o ao D√≥lar "; cin>>COTACAO;
   cin.ignore(80, '\n');
-  cout<<"Informe a quantidade de Reais que vocÍ quer realizar a convers„o para real ";cin>>REAL;
+  cout<<"Informe a quantidade de Reais que voc√™ quer realizar a convers√£o para real ";cin>>REAL;
   cin.ignore(80, '\n');
 //PROCESSAMENTO
     DOLAR=REAL/COTACAO;
 //SAIDA
-  cout<<REAL<< "R$"<<" "<< "È igual a"<<" "<<DOLAR<<"$"<<endl;
+  cout<<REAL<< "R$"<<" "<< "√© igual a"<<" "<<DOLAR<<"$"<<endl;
   cout<<endl;
   cout<<"Pressione <Enter> para finalizar o programa ";
   cin.get();
   return 0;
 } 
-/*Descobrir pq quando o  usu·rio usa a virgula para entrar o valor n„o salva as casas decimais, sÛ salva se ele usar "." separando.*/ 
