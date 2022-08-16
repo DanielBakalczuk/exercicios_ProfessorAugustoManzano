@@ -8,6 +8,7 @@ using namespace std;
 {
 //Variáveis
  const float PI=3.14159;
+ float D=4/3;
  float RAIO,VOLUME;  
 //Habilitar acentuação
  setlocale(LC_ALL, "pt_BR");
@@ -19,8 +20,8 @@ using namespace std;
      cout<<"Informe o raio da esfera ";cin>>RAIO;
      cin.ignore(80, '\n');
 //Processamento
-         //VOLUME=4/3*PI*pow(RAIO, 3);
-         VOLUME=(4*PI*pow(RAIO, 3))/3;
+           VOLUME= (4.0/3.0)*PI*pow(RAIO, 3);
+          
 //Saída
      cout<<"O volume da esfera é de "<<VOLUME<<" Unidade de medida "<<endl;
      cout<<endl;
