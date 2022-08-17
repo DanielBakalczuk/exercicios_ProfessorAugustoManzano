@@ -8,7 +8,6 @@ using namespace std;
 {
 //Variáveis
  const float PI=3.14159;
- float D=4/3;
  float RAIO,VOLUME;  
 //Habilitar acentuação
  setlocale(LC_ALL, "pt_BR");
