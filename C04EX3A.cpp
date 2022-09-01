@@ -1,5 +1,5 @@
 //C04EX3A.cpp
-/*efetuar a leitura de dois valores inteiros e apresentar o resutaldo da diferença do maior pelo menor*/
+/*efetuar  a leitura de dois valores inteiros e apresentar o resutaldo da diferença do maior pelo menor*/
 #include<iostream>
 #include<clocale>
 using namespace std;
