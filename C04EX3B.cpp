@@ -1,5 +1,5 @@
 //C04EX3B.cpp
-/*Ler um valor inteiro positivo ou negativo representado por N e apresentar o valor lido como positivo*/
+/*Ler  um valor inteiro positivo ou negativo representado por N e apresentar o valor lido como positivo*/
 #include<iostream>
 #include<clocale>
 using namespace std;
