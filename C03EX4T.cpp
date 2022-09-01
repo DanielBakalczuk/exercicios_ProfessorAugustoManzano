@@ -1,33 +1,31 @@
 //C03EX4T.cpp
-/*Calcular  e apresentar o valor que um projétil que percorre uma distancia em quilometro e um espaço de tempo em minutos*/
+/*Calcular  e apresentar o valor que um projÃ©til que percorre uma distancia em quilometro e um espaÃ§o de tempo em minutos*/
 #include<iostream>
 #include<iomanip>
-#include<clocale>
 using namespace std;
 
  int main(void)
 {
-//variáveis
- float DISTANCIA,VELOCIDADE,TEMPO;
-//Habilitar acentuação
+//variÃ¡veis
+ float DISTANCIA,VELOCIDADE,TEMPO;   
+//Habilitar acentuaÃ§Ã£o
  setlocale(LC_ALL,"portuguese");
-//Formatação das casas decimais
+//FormataÃ§Ã£o das casas decimais
  cout<<setprecision(2);
  cout<<setiosflags(ios::right);
- cout<<setiosflags(ios::fixed);
+ cout<<setiosflags(ios::fixed); 
 //Entrada
-     cout<<"Informe a distancia percorrida pelo projétil em quilômetros ";cin>>DISTANCIA;
+     cout<<"Informe a distancia percorrida pelo projÃ©til em quilÃ´metros ";cin>>DISTANCIA;
      cin.ignore(80, '\n');
      cout<<"Informe a o tempo em minutos que o projetil demorou para percorrer o trajeto completo ";cin>>TEMPO;
      cin.ignore(80, '\n');
 //Processamento
          VELOCIDADE=(DISTANCIA*1000)/(TEMPO*60);
-//Saída
-     cout<<"A velocidade do projétil é de "<<" "<<VELOCIDADE<<" Metros por segundo"<<endl;
+//SaÃ­da
+     cout<<"A velocidade do projÃ©til Ã© de "<<" "<<VELOCIDADE<<" Metros por segundo"<<endl;
      cout<<endl;
      cout<<"pressione <Enter> para finalizar o programa";
      cin.get();
 return 0;
 
 }
-
