@@ -1,5 +1,5 @@
 //C03EX4P.cpp
-/* Ler o valor do sal·rio,ler a porcentagem de reajuste e calcular e apresentar o novo sal·ria*/
+/* Ler o valor do sal√°rio,ler a porcentagem de reajuste e calcular e apresentar o novo sal√°ria*/
 
 //Bibliotecas 
 #include <iostream>
@@ -8,23 +8,23 @@ using namespace std;
 
 int main (void)
 {
-//Habilitar acentuaÁ„o
+//Habilitar acentua√ß√£o
 setlocale(LC_ALL,"Portuguese");
-//Vari·veis
+//Vari√°veis
  float SM,PR,NS;
-//FormataÁ„o casas decimais
+//Formata√ß√£o casas decimais
      cout<<setprecision(2);
      cout<<setiosflags(ios::right);
      cout<<setiosflags(ios::fixed);
 //Entrada
-     cout<<"Informe o valor do sal·rio mensal do funcion·rio  ";cin>>SM;
-     cout<<"informe percentual de reajuste que o sera aplicado sobre o sal·rio do funcion·rio ";cin>>PR;
+     cout<<"Informe o valor do sal√°rio mensal do funcion√°rio  ";cin>>SM;
+     cout<<"informe percentual de reajuste que o sera aplicado sobre o sal√°rio do funcion√°rio ";cin>>PR;
 //Processamento
          NS=(SM+(SM*(PR/100)));
 //Saida   
-     cout<<"O novo sal·rio do funcion·rio ser· de "<<NS;
+     cout<<"O novo sal√°rio do funcion√°rio ser√° de "<<NS;
      cout<<endl;
-     cout<<"Pressione <Enter> para finalizar o programa ";
+     cout<<"Pressione <Enter> para finalizar o programa "<<endl;
      cin.get();
      return 0;
 }

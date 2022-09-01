@@ -1,5 +1,5 @@
 //C03EX4Q.cpp
-/*Calcular a área do circunferência, solicitando o valor do raio*/
+/*Calcular a Ã¡rea do circunferÃªncia, solicitando o valor do raio*/
 #include <iostream>
 #include <iomanip>
 #include <cmath>
@@ -8,24 +8,24 @@ using namespace  std;
 
  int main(void)
 {    
-//Habilitar acentuação
+//Habilitar acentuaÃ§Ã£o
  setlocale (LC_ALL,"Portuguese");
 //Constantes
  const float PI =3.14159265;
-//Variáveis
+//VariÃ¡veis
  float A,R;
-//Formatação casas decimais
+//FormataÃ§Ã£o casas decimais
      cout<<setprecision(2);
      cout<<setiosflags(ios::right);
      cout<<setiosflags(ios::fixed);
 //Entrada
-         cout<<"Informe o valor do raio da circunferência ";cin>>R;
+         cout<<"Informe o valor do raio da circunferÃªncia ";cin>>R;
 //Processamento
              A=PI*(pow(R, 2));
-//Saída
-         cout<<"A área da circunferencia é "<<A<<endl;
+//SaÃ­da
+         cout<<"A Ã¡rea da circunferÃªncia Ã© "<<A<<endl;
          cout<<endl;
-         cout<<"Pressione <Enter> para finalizar o programa ";
+         cout<<"Pressione <Enter> para finalizar o programa "<<endl;
          cin.get();
          return 0; 
 }

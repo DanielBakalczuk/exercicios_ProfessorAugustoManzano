@@ -13,6 +13,7 @@ int main(void)
   cout<< "informe a temperatura em graus Celsius ";cin>> C;
   cin.ignore(80, '\n');
 //processamento
+  
   F = C*9/5+32;
 //Saida
   cout<< "temperatura atual em Fahrenheit "<< "="<< F;

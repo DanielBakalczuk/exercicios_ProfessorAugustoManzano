@@ -1,26 +1,26 @@
 //C03EX4N.cpp
-/* Leia A,B,C e apresentar a soma dos quadrados dos três valores lidos, guardando o processamento na memoria */
+/* Leia A,B,C e apresentar a soma dos quadrados dos trÃªs valores lidos, guardando o processamento na memoria */
 #include <iostream>
 #include <cmath>
 using namespace std;
 
 int main (void)
 {
-//Habilitar acentuação
- setlocale(LC_ALL, "Portuguese");
-//Variáveis
+//Habilitar acentuaÃ§Ã£o
+ setlocale(LC_ALL, "pt_BR");
+//VariÃ¡veis
  int A,B,C,R;
 //Entrada
-      cout<<"Informe o valor da variável A ";cin>>A;
+      cout<<"Informe o valor da variÃ¡vel A ";cin>>A;
       cin.ignore(80, '\n');
-      cout<<"Informe o valor da variável B ";cin>>B;
+      cout<<"Informe o valor da variÃ¡vel B ";cin>>B;
       cin.ignore(80, '\n');
-      cout<<"Informe o valor da variável C ";cin>>C;
+      cout<<"Informe o valor da variÃ¡vel C ";cin>>C;
       cin.ignore(80, '\n');
 //Processamento
             R=pow(A, 2)+pow(B, 2)+pow(C, 2);
-//Saída 
-      cout<<"O resultado da soma dos quadrados é "<<" "<<R<<endl;
+//SaÃ­da 
+      cout<<"O resultado da soma dos quadrados Ã© "<<" "<<R<<endl;
       cout<<"Pressione <Enter> para finalizar o programa ";
       cout<<endl;
       cin.get();
