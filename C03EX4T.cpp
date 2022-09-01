@@ -9,7 +9,7 @@ using namespace std;
 //variáveis
  float DISTANCIA,VELOCIDADE,TEMPO;   
 //Habilitar acentuação
- setlocale(LC_ALL,"pt_BR");
+ setlocale(LC_ALL,"portuguese");
 //Formatação das casas decimais
  cout<<setprecision(2);
  cout<<setiosflags(ios::right);
@@ -20,7 +20,7 @@ using namespace std;
      cout<<"Informe a o tempo em minutos que o projetil demorou para percorrer o trajeto completo ";cin>>TEMPO;
      cin.ignore(80, '\n');
 //Processamento
-         VELOCIDADE=(DISTANCIA*100)/(TEMPO*60);
+         VELOCIDADE=(DISTANCIA*1000)/(TEMPO*60);
 //Saída
      cout<<"A velocidade do projétil é de "<<" "<<VELOCIDADE<<" Metros por segundo"<<endl;
      cout<<endl;
