@@ -1,6 +1,6 @@
 //C04EX3.cpp
 /*ler 4 notas e tirar a media aritimetica, caso a media seja maior ou igual a 7 apresentar a msg de APROVADO
-caso for menor, pedir a entrada de uma quinta nota(recuperaÁ„o) e calcular uma nova media aritimetica entre A primeira media e a nota do exame final,
+caso for menor, pedir a entrada de uma quinta nota(recupera√ß√£o) e calcular uma nova media aritimetica entre A primeira media e a nota do exame final,
  se essa media for maior ou igual a 5 apresentar a msg "aprovado em exame", caso contrario apresentar a msg "reprovado" */
 #include<iostream>
 #include<clocale>
@@ -8,9 +8,9 @@ using namespace std;
 
   int main(void)
 {
-//AcentuaÁ„o
+//Acentua√ß√£o
   setlocale(LC_ALL,"Portuguese");
-//Vari·veis
+//Vari√°veis
      float N1,N2,N3,N4,N5,MD,MD2;
 //Entrada
      cout<<"INFORME A PRIMEIRA NOTA ";cin>>N1;
@@ -23,15 +23,10 @@ using namespace std;
      cin.ignore(80, '\n');
 //Processamento
          MD=(N1+N2+N3+N4)/4;
-//Decis„o
+//Decis√£o
      if(MD>=7)
      {
       cout<<"Aprovado";
-      cin.ignore(80, '\n');
-      cout<<endl;
-      cout<<"Pressione <Enter> para finalizar o programa";
-      cin.get();
-return 0;
      }
      else
      {
@@ -39,16 +34,15 @@ return 0;
       cin.ignore(80, '\n');
          MD2=(N5+MD)/2;
 
-     }
+
       if(MD2>=5)
-      {
+
        cout<<"Aprovado em exame final ";
-       cin.ignore(80, '\n');
-      }
-      else
-      {
-       cout<<"Reprovado";
-       cin.ignore(80, '\n');
+      else{
+
+         cout<<"Reprovado";
+         cout<<MD2<<endl;
+          }
       }
 
 //Saida
@@ -58,3 +52,5 @@ return 0;
      cin.get();
 return 0;
 }
+
+
