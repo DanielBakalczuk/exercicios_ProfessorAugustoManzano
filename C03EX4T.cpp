@@ -2,6 +2,7 @@
 /*Calcular  e apresentar o valor que um projétil que percorre uma distancia em quilometro e um espaço de tempo em minutos*/
 #include<iostream>
 #include<iomanip>
+#include<clocale>
 using namespace std;
 
  int main(void)
@@ -9,7 +10,7 @@ using namespace std;
 //variáveis
  float DISTANCIA,VELOCIDADE,TEMPO;   
 //Habilitar acentuação
- setlocale(LC_ALL,"pt_BR");
+ setlocale(LC_ALL,"pt_BR UTF-8");
 //Formatação das casas decimais
  cout<<setprecision(2);
  cout<<setiosflags(ios::right);
