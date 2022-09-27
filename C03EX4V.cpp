@@ -2,12 +2,13 @@
 /*Leia 2 valores inteiros, que iram representar a  base e o expoente de um numero e apresentar o resultado*/
 #include<iostream>
 #include<cmath>
+#include<clocale>
 using namespace std;
 
  int main(void)
  {
 //Habilitar acentuação
- setlocale(LC_ALL, "pt_BR");
+ setlocale(LC_ALL, "pt_BR UTF-8");
 //Variáveis
  int A,B,R;
 //Entrada
@@ -18,9 +19,9 @@ using namespace std;
 //Processamento
          R=pow(A, B);
 //Saída
-    cout<<A<<"^"<<B<<" "<<"="<<" "<<R<<endl;
-    cout<<endl;
-    cout<<"Pressione <Enter> para finalizar o programa ";
-    cin.get();
+     cout<<A<<"^"<<B<<" "<<"="<<" "<<R<<endl;
+     cout<<endl;
+     cout<<"Pressione <Enter> para finalizar o programa ";
+     cin.get();
 return 0;   
  }
