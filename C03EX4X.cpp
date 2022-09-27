@@ -3,12 +3,13 @@
 #include<iostream>
 #include<cmath>
 #include<iomanip>
+#include<clocale>
 using namespace std;
 
  int main(void)
 {
 //Habilitar acentuação
- setlocale(LC_ALL, "pt_BR");
+ setlocale(LC_ALL, "pt_BR UTF-8");
 //Formatação de casas decimais
  setprecision(2);
  setiosflags(ios::right);
