@@ -2,12 +2,13 @@
 /*Leia a medida em pés e converter para metros*/
 #include<iostream>
 #include<iomanip>
+#include<clocale>
 using namespace std;
 
 int main(void)
 {
 //Habilitar acentuação
- setlocale(LC_ALL, "pt_BR");
+ setlocale(LC_ALL, "pt_BR UTF-8");
 //Formatação casas decimais
  setprecision(2);
  setiosflags(ios::right);
