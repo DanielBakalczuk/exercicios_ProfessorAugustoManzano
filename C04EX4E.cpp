@@ -9,7 +9,7 @@ using namespace std;
 int main(void)
 {
   // Acentuação
-  setlocale(LC_ALL, "Portuguese");
+  setlocale(LC_ALL, "pt_BR UTC-8");
   // Variáveis
   float A, B, C, D, X1, X2;
   // Entrada
