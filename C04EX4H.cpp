@@ -28,7 +28,7 @@ int main(void)
 
     R2 = A % 2;
     R3 = A % 3;
-    if (R2 == 0 or R3 == 0)
+    if (R2 == 0 || R3 == 0)
     {
         cout << A << " "
              << "é divisível por 2 ou por 3"
